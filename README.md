@@ -7,6 +7,12 @@ There are some articles on the internet that suggest a solution using pandas and
 
 Instead this playbook uses library called pandas_redshift.
 
-Reference: 
+## Installation
+
+```python
+pip install pandas-redshift
+```
+
+## Reference: 
 * https://github.com/agawronski/pandas_redshift
 * https://stackoverflow.com/questions/38402995/how-to-write-data-to-redshift-that-is-a-result-of-a-dataframe-created-in-python/45452032#45452032
