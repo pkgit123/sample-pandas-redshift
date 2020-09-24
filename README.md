@@ -7,7 +7,7 @@ The conventional way to interact with AWS Redshift using Python is via SQL state
 
 There are some articles on the internet that suggest a solution using pandas and sqlalchemy.  However testing this solution, I find that it doesn't quite work correctly.  The table is uploaded to the "PUBLIC" schema (a built-in Redshift schema) and there is no simple way to target a different schema.
 
-Instead this playbook uses library called pandas_redshift.
+Instead this playbook uses library called `pandas_redshift`.
 
 ## Installation
 
